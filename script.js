@@ -1,5 +1,9 @@
 TinyTurtle.apply(window); 
-forward(40);
-right(40);
-left(7);
-stamp(2);
+function triangle ( ) {
+    forward(40);
+    right(50);
+    left(7);
+}
+
+triangle(12);triangle(12);triangle(12);
+stamp(6);
